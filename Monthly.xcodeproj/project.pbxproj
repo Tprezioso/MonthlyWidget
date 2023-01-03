@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55487AEE2963B1690019096D /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55487AEC2963B0830019096D /* Date+Ext.swift */; };
 		55EF9D2529634B3E002912CC /* MonthlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF9D2429634B3E002912CC /* MonthlyApp.swift */; };
 		55EF9D2729634B3E002912CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF9D2629634B3E002912CC /* ContentView.swift */; };
 		55EF9D2929634B3F002912CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EF9D2829634B3F002912CC /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		55487AEC2963B0830019096D /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		55EF9D2129634B3E002912CC /* Monthly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monthly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EF9D2429634B3E002912CC /* MonthlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyApp.swift; sourceTree = "<group>"; };
 		55EF9D2629634B3E002912CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				55EF9D3F29634B84002912CC /* MonthlyWidget.swift */,
 				55EF9D4B296354BB002912CC /* MonthConfig.swift */,
 				55EF9D4E29635720002912CC /* Colors+Ext.swift */,
+				55487AEC2963B0830019096D /* Date+Ext.swift */,
 				55EF9D4129634B88002912CC /* Assets.xcassets */,
 				55EF9D4329634B88002912CC /* Info.plist */,
 			);
@@ -256,6 +259,7 @@
 				55EF9D4F29635720002912CC /* Colors+Ext.swift in Sources */,
 				55EF9D4D296354D4002912CC /* MonthConfig.swift in Sources */,
 				55EF9D4029634B84002912CC /* MonthlyWidget.swift in Sources */,
+				55487AEE2963B1690019096D /* Date+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

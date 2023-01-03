@@ -9,15 +9,18 @@ import WidgetKit
 import SwiftUI
 
 struct Provider: TimelineProvider {
+    // Placeholder View
     func placeholder(in context: Context) -> DayEntry {
         DayEntry(date: Date())
     }
-
+    
+    // Snapshot for Preview area
     func getSnapshot(in context: Context, completion: @escaping (DayEntry) -> ()) {
         let entry = DayEntry(date: Date())
         completion(entry)
     }
 
+    // Request Frequency
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [DayEntry] = []
 
@@ -35,10 +38,12 @@ struct Provider: TimelineProvider {
     }
 }
 
+// Model
 struct DayEntry: TimelineEntry {
     let date: Date
 }
 
+// View
 struct MonthlyWidgetEntryView : View {
     var entry: DayEntry
     var config: MonthConfig
@@ -72,6 +77,7 @@ struct MonthlyWidgetEntryView : View {
     }
 }
 
+// Widget
 struct MonthlyWidget: Widget {
     let kind: String = "MonthlyWidget"
 
@@ -99,15 +105,5 @@ struct MonthlyWidget_Previews: PreviewProvider {
             day: day
         )
         return Calendar.current.date(from: components)!
-    }
-}
-
-extension Date {
-    var weekdayDisplayFormat: String {
-        self.formatted(. dateTime.weekday (.wide))
-    }
-    
-    var dayDisplayFormat: String {
-        self.formatted (.dateTime.day())
     }
 }
