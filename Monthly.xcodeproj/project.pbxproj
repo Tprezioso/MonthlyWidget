@@ -20,6 +20,8 @@
 		55EF9D4629634B88002912CC /* MonthlyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 55EF9D3629634B84002912CC /* MonthlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		55EF9D4D296354D4002912CC /* MonthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF9D4B296354BB002912CC /* MonthConfig.swift */; };
 		55EF9D4F29635720002912CC /* Colors+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF9D4E29635720002912CC /* Colors+Ext.swift */; };
+		55F9C42E2975A3310038A427 /* MonthlyWidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C42D2975A3310038A427 /* MonthlyWidgetIntents.intentdefinition */; };
+		55F9C42F2975A33F0038A427 /* MonthlyWidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C42D2975A3310038A427 /* MonthlyWidgetIntents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		55EF9D4329634B88002912CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55EF9D4B296354BB002912CC /* MonthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthConfig.swift; sourceTree = "<group>"; };
 		55EF9D4E29635720002912CC /* Colors+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Ext.swift"; sourceTree = "<group>"; };
+		55F9C42D2975A3310038A427 /* MonthlyWidgetIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MonthlyWidgetIntents.intentdefinition; sourceTree = "<group>"; };
+		55F9C4302975A34D0038A427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		55EF9D2329634B3E002912CC /* Monthly */ = {
 			isa = PBXGroup;
 			children = (
+				55F9C4302975A34D0038A427 /* Info.plist */,
 				55EF9D2429634B3E002912CC /* MonthlyApp.swift */,
 				55EF9D2629634B3E002912CC /* ContentView.swift */,
 				55EF9D2829634B3F002912CC /* Assets.xcassets */,
@@ -136,6 +141,7 @@
 			children = (
 				55EF9D3D29634B84002912CC /* MonthlyWidgetBundle.swift */,
 				55EF9D3F29634B84002912CC /* MonthlyWidget.swift */,
+				55F9C42D2975A3310038A427 /* MonthlyWidgetIntents.intentdefinition */,
 				55EF9D4B296354BB002912CC /* MonthConfig.swift */,
 				55EF9D4E29635720002912CC /* Colors+Ext.swift */,
 				55487AEC2963B0830019096D /* Date+Ext.swift */,
@@ -247,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55EF9D2729634B3E002912CC /* ContentView.swift in Sources */,
+				55F9C42E2975A3310038A427 /* MonthlyWidgetIntents.intentdefinition in Sources */,
 				55EF9D2529634B3E002912CC /* MonthlyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +266,7 @@
 				55EF9D4F29635720002912CC /* Colors+Ext.swift in Sources */,
 				55EF9D4D296354D4002912CC /* MonthConfig.swift in Sources */,
 				55EF9D4029634B84002912CC /* MonthlyWidget.swift in Sources */,
+				55F9C42F2975A33F0038A427 /* MonthlyWidgetIntents.intentdefinition in Sources */,
 				55487AEE2963B1690019096D /* Date+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +408,7 @@
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,6 +439,7 @@
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
